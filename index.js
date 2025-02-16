@@ -2,6 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const app = express();
+const corsOptions = require("./config/corsOptions.js");
+
 const PORT = 3020;
 app.use(express.json());
 app.use(cors(corsOptions));
