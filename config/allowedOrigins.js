@@ -1,3 +1,6 @@
-const allowedOrigins = ["http://159.223.95.246:3010"];
+const allowedOrigins = [
+  "https://www.dti-expo-track.biz",
+  "https://trade-fair-ms.vercel.app",
+];
 
 module.exports = allowedOrigins;
